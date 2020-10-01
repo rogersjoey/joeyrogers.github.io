@@ -1,0 +1,140 @@
+body {
+    background-color: #e3fdfd;
+}
+
+.container {
+    width: auto;
+    margin: 20px;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-rows: 100px 150px 1fr 200px;
+    grid-template-columns: 150px 1fr 150px;
+    border-radius: 5px;
+}
+
+.item {
+    background: whitesmoke;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.header {
+    grid-row: 1;
+    grid-column: 1/span 3;
+    text-align: right;
+    background-color: #71c9ce;
+}
+
+.header div{
+    font-size: 35px;
+    margin: 30px;
+    text-align: right;
+    margin-right: 100px;
+}
+.hiking {
+    border-radius: 50%;
+    width: 70px;
+    position: absolute;
+    right: 45px;
+    top: 35px;
+    border: 3px solid cornsilk;
+}
+
+.title {
+    grid-row: 2;
+    grid-column: 1/span 3;
+    overflow: hidden;
+    text-align: left;
+    font-size: 75px;
+    background-image: url("https://scontent-ort2-1.xx.fbcdn.net/v/t31.0-8/18491798_1136742956431998_5641108085248864705_o.jpg?_nc_cat=103&_nc_sid=a9b1d2&_nc_ohc=7cmUY2x5hQwAX8BCn1H&_nc_ht=scontent-ort2-1.xx&oh=8c25b60f6ecf03ecb52e5806db6e6d7b&oe=5F940611") ;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.title div{
+    margin: 20px;
+    color: rgb(209, 207, 207);
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.left-margin {
+    grid-row: 3;
+    grid-column: 1;
+}
+.logo{
+    width: 120px;
+    margin: 10px;
+    justify-content: center;
+    background: none;
+}
+
+.body {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: left;
+    background-color: #71c9ce;
+}
+
+a{
+    font-size: 35px;
+    vertical-align: top;
+}
+b{
+    margin: 15px;
+    margin-right: 20px;
+    display: flex;
+    text-align: left;
+}
+
+
+.right-margin {
+    grid-row: 3;
+    grid-column: 3;
+}
+.Facebook{
+    width: 120px;
+    margin: 10px;
+    justify-content: center;
+    background: none;
+    border-radius: 5px;
+}
+
+.closing {
+    grid-row: 4;
+    grid-column: 1/span 3;
+    background-color: gray;
+    text-align: center;
+}
+
+.closing div{
+    margin: 20px;
+}
+
+.footer {
+    grid-row: 4;
+    grid-column: 1/ span 3;
+    color: white;
+    background-color: #252a34;
+    text-align: center;
+}
+
+.icon {
+    height: 150px;
+    background: none;
+}
+
+.Joey {
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 3px solid cornsilk;
+}
+.border{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.margin{
+    text-align: center;
+}
